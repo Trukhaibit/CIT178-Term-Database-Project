@@ -1,0 +1,53 @@
+/*USE myFictionalBusiness;
+GO
+INSERT INTO Position VALUES ('EC', 'Ecologist', 'Counseler')
+INSERT INTO Position VALUES ('LGC', 'Life Guard', 'Counseler')
+INSERT INTO Position VALUES ('BC', 'Belayer', 'Counseler')
+INSERT INTO Position VALUES ('GC', 'Guidance Counselor', 'Counseler')
+INSERT INTO Position VALUES ('IT', 'Tech Support', 'Counseler')
+INSERT INTO Position VALUES ('JH', 'Junior Helper', 'Junior Helper')
+INSERT INTO Position VALUES ('F', 'Founder', 'Founder')
+
+INSERT INTO Station VALUES ('NA', 'Nature Center')
+INSERT INTO Station VALUES ('WF', 'Waterfront')
+INSERT INTO Station VALUES ('CC', 'Counseling Center')
+INSERT INTO Station VALUES ('CP', 'COPE Course')
+INSERT INTO Station VALUES ('TC', 'Technology Center')
+INSERT INTO Station VALUES ('G', 'General')
+INSERT INTO Station VALUES ('F', 'Founder')
+
+INSERT INTO Employee VALUES ('301', 'Duckford', 'D', 'Dumdum', 'LGC', 'WF')
+INSERT INTO Employee VALUES ('302', 'Cici', 'C', 'Cacti', 'GC', 'CC')
+INSERT INTO Employee VALUES ('303', 'Toffee', 'J', 'Teakettler', 'JH', 'G')
+INSERT INTO Employee VALUES ('304', 'Wendy', 'W', 'Wamp', 'EC', 'NA')
+INSERT INTO Employee VALUES ('305', 'Sophia', 'O', 'Squidgicum', 'IT', 'TC')
+INSERT INTO Employee VALUES ('306', 'Wallace', 'W', 'Walaloopsie', 'BC', 'CP')
+INSERT INTO Employee VALUES ('307', 'Jack', 'A', 'Lope', 'EC', 'NA')
+INSERT INTO Employee VALUES ('500', 'Boss', 'A', 'Man', 'F', 'G')
+INSERT INTO Employee VALUES ('500', 'Boss', 'A', 'Man', 'F', 'F')
+*//*
+INSERT INTO Manager VALUES (301, 303)
+INSERT INTO Manager VALUES (500, 301)
+INSERT INTO Manager VALUES (500, 302)
+INSERT INTO Manager VALUES (500, 304)
+INSERT INTO Manager VALUES (500, 305)
+INSERT INTO Manager VALUES (500, 306)
+INSERT INTO Manager VALUES (500, 307)
+
+INSERT INTO Performance VALUES ('301', '6/7/2021', 'Great', 'Yes', 'Increase Pay', '500')
+INSERT INTO Performance VALUES ('302', '6/7/2021', 'Poor', 'No', 'Schedule a meeting to discuss performance', '500')
+INSERT INTO Performance VALUES ('303', '6/8/2021', 'Great', 'Yes', 'Mark off requirement booklet', '301')
+INSERT INTO Performance VALUES ('304', '6/7/2021', 'Fair', 'Yes', 'None', '500')
+INSERT INTO Performance VALUES ('305', '6/7/2021', 'Great', 'Yes', 'Increase Pay', '500')
+INSERT INTO Performance VALUES ('306', '6/7/2021', 'Fair', 'Yes', 'None', '500')
+INSERT INTO Performance VALUES ('307', '6/7/2021', 'Fair', 'Yes', 'None', '500')
+
+INSERT INTO Schedule VALUES ('1/1/2021', '301', '10:00', '18:00', '10:00', '17:00', '10:00', '18:00', '10:00', '17:00')
+INSERT INTO Schedule VALUES ('2/1/2021', '302', '12:00', '20:00', '12:00', '20:00', '12:00', '20:00', '12:00', '20:00')
+INSERT INTO Schedule VALUES ('3/1/2021', '303', '10:00', '16:00', '10:00', '16:00', '10:00', '16:00', '', '')
+INSERT INTO Schedule VALUES ('4/1/2021', '304', '10:00', '17:00', '10:00', '17:00', '10:00', '17:00', '10:00', '17:00')
+INSERT INTO Schedule VALUES ('5/1/2021', '305', '10:00', '17:00', '10:00', '17:00', '10:00', '17:00', '10:00', '17:00')
+INSERT INTO Schedule VALUES ('6/1/2021', '306', '10:00', '18:00', '10:00', '17:00', '10:00', '18:00', '10:00', '17:00')
+INSERT INTO Schedule VALUES ('7/1/2021', '307', '10:00', '17:00', '10:00', '17:00', '10:00', '17:00', '10:00', '17:00')
+
+Select * from Manager; */
